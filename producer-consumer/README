@@ -1,0 +1,28 @@
+ Üretici–Tüketici problemi, eşzamanlı (concurrent) programlamada klasik bir senkronizasyon problemidir.
+
+# Üretici (Producer) veri üretir ve ortak bir tampon belleğe (buffer) ekler.
+# Tüketici (Consumer) bu tampon bellekten veriyi alır ve işler.
+# Buffer sınırlı boyuttadır (bounded buffer).
+
+Amaç:
+
+# Buffer taşmasını (overflow) önlemek
+# Buffer boşken tüketim yapılmasını engellemek
+# Veri yarışını (race condition) önlemek
+
+Temel Sorunlar:
+
+# Critical Section (Kritik Bölge)
+# Race Condition
+# Deadlock
+# Synchronization
+
+Çalışma Prensibi:
+
+# Üretici:
+## Buffer doluysa bekler.
+## Boş yer varsa veri ekler.
+
+# Tüketici:
+## Buffer boşsa bekler.
+## Veri varsa alır ve işler.
