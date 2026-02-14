@@ -1,0 +1,9 @@
+# N filozof bir masada oturuyor.
+# Her filozof ya düşünüyor ya da yiyor.
+# Ortada bir tabak makarna var ve her filozofun iki çubuğa ihtiyacı var (sağ ve sol).
+# Ama çubuklar paylaşımlı ve sadece bir filozof aynı anda kullanabilir.
+
+Amaç:
+
+# Hiçbir filozofun aç kalmaması
+# Deadlock ve starvation (ölümcül bekleme) olmaması
