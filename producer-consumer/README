@@ -6,7 +6,7 @@
 
 Amaç:
 
-`+` Buffer taşmasını (overflow) önlemek
+# Buffer taşmasını (overflow) önlemek
 # Buffer boşken tüketim yapılmasını engellemek
 # Veri yarışını (race condition) önlemek
 
