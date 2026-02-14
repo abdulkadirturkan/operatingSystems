@@ -1,0 +1,10 @@
+# Ortak bir veri kaynağı var (shared resource).
+# İki tür thread var:
+## Okuyucu (Reader): Veriyi okur, başka okuyucular varsa aynı anda okuyabilir.
+## Yazıcı (Writer): Veriyi değiştirir, okuyucular veya diğer yazıcılarla aynı anda çalışamaz.
+
+Amaç:
+
+# Veri tutarlılığını korumak
+# Çoklu okuyucunun aynı anda çalışmasına izin vermek
+# Yazıcının tek başına çalışmasını sağlamak
